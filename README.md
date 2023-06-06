@@ -11,7 +11,7 @@ De cada poción p se tiene:
 • sus características; y
 • el nivel de dificultad de su preparación.
 
-!(https://images.ctfassets.net/usf1vwtuqyxm/79mZ9VsutWU7nZVrLPdUQc/722e70a605805a7a5bfe3d286cfb3ccd/hermione_web_header.png?fm=jpg&q=70&w=2560)
+![Harry, Ron y Hermione](https://images.ctfassets.net/usf1vwtuqyxm/79mZ9VsutWU7nZVrLPdUQc/722e70a605805a7a5bfe3d286cfb3ccd/hermione_web_header.png?fm=jpg&q=70&w=2560)
 
 ## Ejercicio 1
 Descargar el archivo pocion.py de la página de la materia y completar la clase Pocion para que:
