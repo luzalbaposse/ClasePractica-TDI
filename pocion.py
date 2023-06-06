@@ -33,6 +33,15 @@ class Pocion:
         '''
         return f'Poción {self.nombre}' # Devuelve el nombre de la poción. Se usa f para poder poner el nombre de la poción en el string. 
     
+    # Funcion para imprimir como string sin usar el método especial __str__
+    def imprimir(self)-> str:
+        '''
+        Devuelve una representación como string de la poción.
+        Requiere: nada.
+        '''
+        return f'Poción {self.nombre}'
+    
+    
     def __lt__ (self, other:Pocion)-> bool: # Comparación por menor de dos pociones en base a su nombre (orden lexicográfico). 
         '''
         Devuelve True si la poción self es menor que la poción other.
