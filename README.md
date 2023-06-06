@@ -11,6 +11,8 @@ De cada poción p se tiene:
 • sus características; y
 • el nivel de dificultad de su preparación.
 
+![Harry Potter](https://i.pinimg.com/originals/6a/6e/6a/6a6e6a0b0b0b0b0b0b0b0b0b0b0b0b0b.jpg)
+
 ## Ejercicio 1
 Descargar el archivo pocion.py de la página de la materia y completar la clase Pocion para que:
 
