@@ -49,6 +49,4 @@ class Pocion:
         self.efecto:str = e
         self.caracteristicas:str = c
         self.nivel_dificultad:str = nd
-
-
-    ############################## COMPLETAR ##############################
+    
