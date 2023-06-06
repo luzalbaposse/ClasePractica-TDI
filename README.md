@@ -30,10 +30,10 @@ print ( p2 < p1 ) # imprime False
 ```
 
 ## Ejercicio 2
-Descargar el archivo catalogo-pociones.py de la página de la materia y completar los métodos __init__, listar_por_dificultad y listar_pociones_con_n_ingredientes de la clase CatalogoPociones teniendo en cuenta que:
+Descargar el archivo catalogo-pociones.py de la página de la materia y completar los métodos ```__init__```, ```listar_por_dificultad``` y ```listar_pociones_con_n_ingredientes``` de la clase CatalogoPociones teniendo en cuenta que:
 
-(a) CatalogoPociones debe tener un único atributo de tipo Dict[str, Set[Pocion]], que vincula niveles de dificultad de preparación de pociones con todas las pociones de tal dificultad. (Las pociones que no tengan definida una dificultad no deben incluirse en el catálogo).
+(a) CatalogoPociones debe tener un único atributo de tipo ```Dict[str, Set[Pocion]]```, que vincula niveles de dificultad de preparación de pociones con todas las pociones de tal dificultad. (Las pociones que no tengan definida una dificultad no deben incluirse en el catálogo).
 
-(b) listar_por_dificultad debe devolver una lista de las Pociones del catalogo que tienen la dificultad indicada por el argumento con el cual el método es invocado. Las pociones deben aparecer ordenadas siguiendo la relación < de la clase Poción. ¿Cuál es la complejidad de este método?
+(b) ```listar_por_dificulta``` debe devolver una lista de las Pociones del catalogo que tienen la dificultad indicada por el argumento con el cual el método es invocado. Las pociones deben aparecer ordenadas siguiendo la relación < de la clase Poción. ¿Cuál es la complejidad de este método?
 
-(c) listar_pociones_con_n_ingredientes debe devolver una lista de tuplas, dónde cada tupla guarda la Poción con n cantidad de ingredientes y su dificultad, dónde n es el argumento con el cual el método es invocado. Las tuplas que conforman la lista deben ser de la froma < difucultad, Pocion >. ¿Cuál es la complejidad de este método?
+(c) ```listar_pociones_con_n_ingredientes``` debe devolver una lista de tuplas, dónde cada tupla guarda la Poción con n cantidad de ingredientes y su dificultad, dónde n es el argumento con el cual el método es invocado. Las tuplas que conforman la lista deben ser de la froma < difucultad, Pocion >. ¿Cuál es la complejidad de este método?

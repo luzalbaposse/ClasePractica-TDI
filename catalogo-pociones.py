@@ -23,6 +23,7 @@ class CatalogoPociones:
             '''
             Requiere: dificultad es un string que representa una dificultad de pociones
             Devuelve: una lista de las Pociones del catalogo que tienen la dificultad indicada por el argumento con el cual el método es invocado. Las pociones deben aparecer ordenadas siguiendo la relación < de la clase Poción.
+            Orden de Complejidad: O(1) porque accede a un elemento del diccionario y devuelve una lista de pociones ordenadas por dificultad. Lo que implica que no depende de la cantidad de pociones que tenga el catalogo, ya que siempre va a devolver una lista de pociones ordenadas por dificultad.
             '''
             return self._pociones_dificultad[dificultad] # Devuelve una lista de pociones ordenadas por dificultad
         
@@ -30,6 +31,7 @@ class CatalogoPociones:
             '''
            Requiere: n es un número entero positivo.
            Devuelve: una lista de tuplas, dónde cada tupla guarda la Poción con n cantidad de ingredientes y su dificultad, dónde n es el argumento con el cual el método es invocado. Las tuplas que conforman la lista deben ser de la froma < difucultad, Pocion >.
+           Orden de Complejidad: O(n) porque recorre todas las pociones del catalogo y depende de la cantidad de ingredientes de cada poción. 
             '''
             # defino una lista vacía
             lista = []
