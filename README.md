@@ -20,6 +20,10 @@ Descargar el archivo pocion.py de la página de la materia y completar la clase 
 
 (b) dos pociones p1 y p2 puedan compararse por menor de forma tal que p1 < p2 sea verdadero si el nombre de p1 es menor al de p2 de acuerdo al orden lexicográfico.
 
+(c) [EXTRA] Definir un método crear_efecto_magico: Genera un efecto mágico aleatorio utilizando la poción. 
+ El método debe seleccionar al azar un efecto mágico de una lista predefinida y mostrar un mensaje 
+ indicando el efecto mágico creado por la poción.
+
 A continuación puede observarse un ejemplo junto a los resultados esperados:
 
 ```python
