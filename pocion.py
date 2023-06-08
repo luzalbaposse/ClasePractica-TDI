@@ -20,7 +20,9 @@ class Pocion:
         Devuelve una representación como string de la poción.
         Requiere: nada.
         '''
-        return f'Poción {self.nombre}' # Devuelve el nombre de la poción. Se usa f para poder poner el nombre de la poción en el string. 
+        return 'Pocion: ' + self.nombre
+       
+        # OPCION B return f'Poción {self.nombre}' # Devuelve el nombre de la poción. Se usa f para poder poner el nombre de la poción en el string. 
         
     def __lt__ (self, other:Pocion)-> bool: # Comparación por menor de dos pociones en base a su nombre (orden lexicográfico). 
         '''
